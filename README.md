@@ -1,7 +1,7 @@
 # Determining Semantic Version Precedence
 
 ## Built With
-* Node.js (**Javascript)
+* Node.js (**Javascript**)
 * Mocha
 * Chai
 
