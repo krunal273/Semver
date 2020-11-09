@@ -1,0 +1,32 @@
+{
+  "true": [
+    { "fsem": "2.0.0", "ssem": "1.0.0", "result": true },
+    { "fsem": "2.2.0", "ssem": "2.1.0", "result": true },
+    { "fsem": "2.2.3", "ssem": "2.2.2", "result": true },
+    { "fsem": "1.0.0", "ssem": "1.0.0-3", "result": true },
+    { "fsem": "1.0.0-3", "ssem": "1.0.0-2", "result": true },
+    { "fsem": "1.0.0-0.3", "ssem": "1.0.0-0.2", "result": true },
+    { "fsem": "1.0.0", "ssem": "1.0.0-alpha", "result": true },
+    { "fsem": "1.0.0-alpha.1", "ssem": "1.0.0-alpha", "result": true },
+    { "fsem": "1.0.0-a.b.c", "ssem": "1.0.0-a.b", "result": true },
+    { "fsem": "1.0.0-a.c", "ssem": "1.0.0-a.b", "result": true },
+    { "fsem": "1.0.0-beta", "ssem": "1.0.0-alpha", "result": true }
+  ],
+  "false": [
+    { "fsem": "1.2.03", "ssem": "1.0.0", "result": false },
+    { "fsem": "1.2.3", "ssem": "1.2.03", "result": false },
+    { "fsem": "1.2.3", "ssem": "1.2.4", "result": false },
+    { "fsem": "2.3.1", "ssem": "2.4.1", "result": false },
+    { "fsem": "2.3.1", "ssem": "2.3.2", "result": false },
+    { "fsem": "1.0.0-alpha", "ssem": "1.0.0-alpha.1", "result": false },
+    { "fsem": "1.2.3-a.b", "ssem": "1.2.3-a.c", "result": false },
+    { "fsem": "1.0.0-2/8", "ssem": "1.0.0", "result": false },
+    { "fsem": "1.0.0-1o*", "ssem": "1.0.0", "result": false },
+    { "fsem": "1.0.0-~", "ssem": "1.0.0", "result": false },
+    { "fsem": "1.0.0-.-", "ssem": "1.0.0", "result": false },
+    { "fsem": "1.0.0-1..2", "ssem": "1.0.0", "result": false },
+    { "fsem": "1.0.0-1.", "ssem": "1.0.0", "result": false },
+    { "fsem": "1.0.0-1.03.a", "ssem": "1.0.0", "result": false },
+    { "fsem": "1.0.0", "ssem": "1.0.0", "result": false }
+  ]
+}
