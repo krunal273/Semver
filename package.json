@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "run": "node index.js",
-    "app": "node app.js"
+    "run": "node app.js"
   },
   "author": "",
   "license": "ISC",

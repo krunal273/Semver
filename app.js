@@ -10,4 +10,7 @@ function determinePrecedence(fSem, sSem) {
   return fSemver.compareMMP(sSemver);
 }
 
+
+// console.log(determinePrecedence("2.0.0", "1.0.0"));
+
 module.exports = determinePrecedence;
