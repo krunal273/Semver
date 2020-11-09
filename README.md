@@ -1,12 +1,11 @@
 # Determining Semantic Version Precedence
 
-# Javascript (Node.js, Mocha, and Chai)
+## Javascript (Node.js, Mocha, and Chai)
 
 ## Requirements
 
-* Node 8
-* Git
-* Contentful CLI (only for write access)
+* [Node.js](https://nodejs.org/en/)
+* [Git](https://git-scm.com/downloads)
 
 ## Common setup
 
