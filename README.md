@@ -1,6 +1,10 @@
 # Determining Semantic Version Precedence
 
-## Javascript (Node.js, Mocha, and Chai)
+## Tech I used
+* Node.js
+* Mocha
+* Chai
+
 
 ## Requirements
 
