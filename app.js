@@ -11,6 +11,7 @@ function determinePrecedence(fSem, sSem) {
 }
 
 
-// console.log(determinePrecedence("2.0.0", "1.0.0"));
+// console.log(determinePrecedence("2.0.0-cba", "2.0.0-b"));
 
 module.exports = determinePrecedence;
+

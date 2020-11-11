@@ -16,9 +16,9 @@ class Semver {
 
   getDetails() {
     let semverArr = this.semver.split(".");
-    this.major = semverArr[0];
-    this.minor = semverArr[1];
-    this.patch = semverArr[2];
+    this.major = +semverArr[0];
+    this.minor = +semverArr[1];
+    this.patch = +semverArr[2];
     this.MMP = +this.semver.split("-")[0].split(".").join("");
     this.prerelease = this.semver.split("-")[1] || null;
   }
@@ -36,7 +36,15 @@ class Semver {
       return false;
     }
 
-    return this.MMP > other.MMP;
+    // return this.MMP > other.MMP;
+
+    return this.major > other.major
+      ? true
+      : this.minor > other.minor
+      ? true
+      : this.patch > other.patch
+      ? true
+      : false;
   }
 
   //Compare Major, Minor, Patch, and Prerelease

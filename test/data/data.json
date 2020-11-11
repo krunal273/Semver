@@ -3,6 +3,7 @@
     { "fsem": "2.0.0", "ssem": "1.0.0", "result": true },
     { "fsem": "2.2.0", "ssem": "2.1.0", "result": true },
     { "fsem": "2.2.3", "ssem": "2.2.2", "result": true },
+    { "fsem": "2.102.3", "ssem": "2.1.2", "result": true },
     { "fsem": "1.0.0", "ssem": "1.0.0-3", "result": true },
     { "fsem": "1.0.0-3", "ssem": "1.0.0-2", "result": true },
     { "fsem": "1.0.0-0.3", "ssem": "1.0.0-0.2", "result": true },
